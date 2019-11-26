@@ -1,0 +1,9 @@
+{application,tt,
+             [{applications,[kernel,stdlib,elixir,logger,distillery,edeliver]},
+              {description,"tt"},
+              {modules,['Elixir.Tt']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.Tt',[]}},
+              {start_phases,[{start,[]}]},
+              {application,[edeliver]}]}.
