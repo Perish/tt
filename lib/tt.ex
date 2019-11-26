@@ -1,6 +1,6 @@
 defmodule Tt do
   def start(:normal, []) do
-    {:ok, listen_socket} = :gen_tcp.listen(5678, [:binary, packet: :raw, active: false, reuseaddr: true])
+    {:ok, listen_socket} = :gen_tcp.listen(7314, [:binary, packet: :raw, active: false, reuseaddr: true])
     IO.puts("Start tcp/ip port: 5678")
     accept_request(listen_socket)
   end
